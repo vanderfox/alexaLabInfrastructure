@@ -1,0 +1,289 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  Lambda01:
+    Type: AWS::IAM::User
+    Properties:
+      UserName:  Lambda01
+      Path: "/"
+      LoginProfile:
+        Password: gr8Conf!eu
+
+  Dynamo01:
+    Type: "AWS::DynamoDB::Table"
+    Properties:
+      AttributeDefinitions:
+        -
+          AttributeName: "Id"
+          AttributeType: "S"
+
+      KeySchema:
+        -
+          AttributeName: "Id"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+
+  Lambda02:
+    Type: AWS::IAM::User
+    Properties:
+      UserName:  Lambda02
+      Path: "/"
+      LoginProfile:
+        Password: gr8Conf!eu
+
+  Dynamo02:
+    Type: "AWS::DynamoDB::Table"
+    Properties:
+      AttributeDefinitions:
+        -
+          AttributeName: "Id"
+          AttributeType: "S"
+
+      KeySchema:
+        -
+          AttributeName: "Id"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+
+  Lambda03:
+    Type: AWS::IAM::User
+    Properties:
+      UserName:  Lambda03
+      Path: "/"
+      LoginProfile:
+        Password: gr8Conf!eu
+
+  Dynamo03:
+    Type: "AWS::DynamoDB::Table"
+    Properties:
+      AttributeDefinitions:
+        -
+          AttributeName: "Id"
+          AttributeType: "S"
+
+      KeySchema:
+        -
+          AttributeName: "Id"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+
+  Lambda04:
+    Type: AWS::IAM::User
+    Properties:
+      UserName:  Lambda04
+      Path: "/"
+      LoginProfile:
+        Password: gr8Conf!eu
+
+  Dynamo04:
+    Type: "AWS::DynamoDB::Table"
+    Properties:
+      AttributeDefinitions:
+        -
+          AttributeName: "Id"
+          AttributeType: "S"
+
+      KeySchema:
+        -
+          AttributeName: "Id"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+
+  Lambda05:
+    Type: AWS::IAM::User
+    Properties:
+      UserName:  Lambda05
+      Path: "/"
+      LoginProfile:
+        Password: gr8Conf!eu
+
+  Dynamo05:
+    Type: "AWS::DynamoDB::Table"
+    Properties:
+      AttributeDefinitions:
+        -
+          AttributeName: "Id"
+          AttributeType: "S"
+
+      KeySchema:
+        -
+          AttributeName: "Id"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+
+  Lambda06:
+    Type: AWS::IAM::User
+    Properties:
+      UserName:  Lambda06
+      Path: "/"
+      LoginProfile:
+        Password: gr8Conf!eu
+
+  Dynamo06:
+    Type: "AWS::DynamoDB::Table"
+    Properties:
+      AttributeDefinitions:
+        -
+          AttributeName: "Id"
+          AttributeType: "S"
+
+      KeySchema:
+        -
+          AttributeName: "Id"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+
+  Lambda07:
+    Type: AWS::IAM::User
+    Properties:
+      UserName:  Lambda07
+      Path: "/"
+      LoginProfile:
+        Password: gr8Conf!eu
+
+  Dynamo07:
+    Type: "AWS::DynamoDB::Table"
+    Properties:
+      AttributeDefinitions:
+        -
+          AttributeName: "Id"
+          AttributeType: "S"
+
+      KeySchema:
+        -
+          AttributeName: "Id"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+
+  Lambda08:
+    Type: AWS::IAM::User
+    Properties:
+      UserName:  Lambda08
+      Path: "/"
+      LoginProfile:
+        Password: gr8Conf!eu
+
+  Dynamo08:
+    Type: "AWS::DynamoDB::Table"
+    Properties:
+      AttributeDefinitions:
+        -
+          AttributeName: "Id"
+          AttributeType: "S"
+
+      KeySchema:
+        -
+          AttributeName: "Id"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+
+  Lambda09:
+    Type: AWS::IAM::User
+    Properties:
+      UserName:  Lambda09
+      Path: "/"
+      LoginProfile:
+        Password: gr8Conf!eu
+
+  Dynamo09:
+    Type: "AWS::DynamoDB::Table"
+    Properties:
+      AttributeDefinitions:
+        -
+          AttributeName: "Id"
+          AttributeType: "S"
+
+      KeySchema:
+        -
+          AttributeName: "Id"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+
+  Lambda10:
+    Type: AWS::IAM::User
+    Properties:
+      UserName:  Lambda10
+      Path: "/"
+      LoginProfile:
+        Password: gr8Conf!eu
+
+  Dynamo10:
+    Type: "AWS::DynamoDB::Table"
+    Properties:
+      AttributeDefinitions:
+        -
+          AttributeName: "Id"
+          AttributeType: "S"
+
+      KeySchema:
+        -
+          AttributeName: "Id"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+
+  LambaLab1Policy:
+    Type: "AWS::IAM::Policy"
+    Properties:
+      PolicyName: "lab1Policy"
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          -
+            Effect: "Allow"
+            Action: "lambda:*"
+            Resource: "*"
+          -
+            Effect: "Allow"
+            Action: "dynamodb:*"
+            Resource: "*"
+          -
+            Effect: "Allow"
+            Action: "*"
+            Resource: "*"
+
+          -
+            Effect: "Deny"
+            Action: "iam:*"
+            Resource: "arn:aws:iam::057654311259:user/lfox"
+          -
+            Effect: "Deny"
+            Action: "iam:*"
+            Resource: "arn:aws:iam::057654311259:user/rvanderwerf"
+          -
+            Effect: "Deny"
+            Action: "iam:*"
+            Resource: "arn:aws:iam::057654311259:user/devopsAssistant"
+          -
+            Effect: "Deny"
+            Action: "iam:*"
+            Resource: "arn:aws:iam::057654311259:user/victoropsSkill"
+      Users:
+        - Ref: Lambda01
+        - Ref: Lambda02
+        - Ref: Lambda03
+        - Ref: Lambda04
+        - Ref: Lambda05
+        - Ref: Lambda06
+        - Ref: Lambda07
+        - Ref: Lambda08
+        - Ref: Lambda09
+        - Ref: Lambda10
