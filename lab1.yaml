@@ -6,7 +6,7 @@ Resources:
       UserName:  Lambda01
       Path: "/"
       LoginProfile:
-        Password: GoSpursGo1!
+        Password: DrinkMoreBourbon1!
 
   Dynamo01:
     Type: "AWS::DynamoDB::Table"
@@ -30,7 +30,7 @@ Resources:
       UserName:  Lambda02
       Path: "/"
       LoginProfile:
-        Password: GoSpursGo1!
+        Password: DrinkMoreBourbon1!
 
   Dynamo02:
     Type: "AWS::DynamoDB::Table"
@@ -54,7 +54,7 @@ Resources:
       UserName:  Lambda03
       Path: "/"
       LoginProfile:
-        Password: GoSpursGo1!
+        Password: DrinkMoreBourbon1!
 
   Dynamo03:
     Type: "AWS::DynamoDB::Table"
@@ -78,7 +78,7 @@ Resources:
       UserName:  Lambda04
       Path: "/"
       LoginProfile:
-        Password: GoSpursGo1!
+        Password: DrinkMoreBourbon1!
 
   Dynamo04:
     Type: "AWS::DynamoDB::Table"
@@ -102,7 +102,7 @@ Resources:
       UserName:  Lambda05
       Path: "/"
       LoginProfile:
-        Password: GoSpursGo1!
+        Password: DrinkMoreBourbon1!
 
   Dynamo05:
     Type: "AWS::DynamoDB::Table"
@@ -126,7 +126,7 @@ Resources:
       UserName:  Lambda06
       Path: "/"
       LoginProfile:
-        Password: GoSpursGo1!
+        Password: DrinkMoreBourbon1!
 
   Dynamo06:
     Type: "AWS::DynamoDB::Table"
@@ -150,7 +150,7 @@ Resources:
       UserName:  Lambda07
       Path: "/"
       LoginProfile:
-        Password: GoSpursGo1!
+        Password: DrinkMoreBourbon1!
 
   Dynamo07:
     Type: "AWS::DynamoDB::Table"
@@ -174,7 +174,7 @@ Resources:
       UserName:  Lambda08
       Path: "/"
       LoginProfile:
-        Password: GoSpursGo1!
+        Password: DrinkMoreBourbon1!
 
   Dynamo08:
     Type: "AWS::DynamoDB::Table"
@@ -198,7 +198,7 @@ Resources:
       UserName:  Lambda09
       Path: "/"
       LoginProfile:
-        Password: GoSpursGo1!
+        Password: DrinkMoreBourbon1!
 
   Dynamo09:
     Type: "AWS::DynamoDB::Table"
@@ -222,7 +222,7 @@ Resources:
       UserName:  Lambda10
       Path: "/"
       LoginProfile:
-        Password: GoSpursGo1!
+        Password: DrinkMoreBourbon1!
 
   Dynamo10:
     Type: "AWS::DynamoDB::Table"
@@ -257,9 +257,15 @@ Resources:
             Resource: "*"
           -
             Effect: "Allow"
-            Action: "*"
+            Action:
+              - iam:CreateAccessKey
+              - iam:ListUsers
+              - iam:ListAccessKeys
+              - iam:PassRole
+              - logs:describeLogGroups
+              - logs:describeLogStreams
+              - logs:getLogEvents
             Resource: "*"
-
           -
             Effect: "Deny"
             Action: "iam:*"
