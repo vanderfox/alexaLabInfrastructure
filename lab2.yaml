@@ -258,9 +258,13 @@ Resources:
           -
             Effect: "Allow"
             Action:
-              - iam:List*
-              - iam:Get*
               - iam:CreateAccessKey
+              - iam:ListUsers
+              - iam:ListAccessKeys
+              - iam:PassRole
+              - logs:describeLogGroups
+              - logs:describeLogStreams
+              - logs:getLogEvents
             Resource: "*"
           -
             Effect: "Deny"
