@@ -15,7 +15,7 @@ Resources:
         -
           AttributeName: "Id"
           AttributeType: "S"
-
+      TableName:  Dynamo01
       KeySchema:
         -
           AttributeName: "Id"
@@ -39,7 +39,7 @@ Resources:
         -
           AttributeName: "Id"
           AttributeType: "S"
-
+      TableName:  Dynamo02
       KeySchema:
         -
           AttributeName: "Id"
@@ -63,7 +63,7 @@ Resources:
         -
           AttributeName: "Id"
           AttributeType: "S"
-
+      TableName:  Dynamo03
       KeySchema:
         -
           AttributeName: "Id"
@@ -87,7 +87,7 @@ Resources:
         -
           AttributeName: "Id"
           AttributeType: "S"
-
+      TableName:  Dynamo04
       KeySchema:
         -
           AttributeName: "Id"
@@ -111,7 +111,7 @@ Resources:
         -
           AttributeName: "Id"
           AttributeType: "S"
-
+      TableName:  Dynamo05
       KeySchema:
         -
           AttributeName: "Id"
@@ -135,7 +135,7 @@ Resources:
         -
           AttributeName: "Id"
           AttributeType: "S"
-
+      TableName:  Dynamo06
       KeySchema:
         -
           AttributeName: "Id"
@@ -159,7 +159,7 @@ Resources:
         -
           AttributeName: "Id"
           AttributeType: "S"
-
+      TableName:  Dynamo07
       KeySchema:
         -
           AttributeName: "Id"
@@ -183,7 +183,7 @@ Resources:
         -
           AttributeName: "Id"
           AttributeType: "S"
-
+      TableName:  Dynamo08
       KeySchema:
         -
           AttributeName: "Id"
@@ -207,7 +207,7 @@ Resources:
         -
           AttributeName: "Id"
           AttributeType: "S"
-
+      TableName:  Dynamo09
       KeySchema:
         -
           AttributeName: "Id"
@@ -231,7 +231,7 @@ Resources:
         -
           AttributeName: "Id"
           AttributeType: "S"
-
+      TableName:  Dynamo10
       KeySchema:
         -
           AttributeName: "Id"
