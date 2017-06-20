@@ -4,7 +4,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -22,7 +22,7 @@
             "S": "Black"
           },
           "answer": {
-            "N": "1"
+            "S": "1"
           }
         }
       }
@@ -33,7 +33,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -62,7 +62,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -91,7 +91,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -120,7 +120,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -149,7 +149,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -178,7 +178,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -207,7 +207,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -236,7 +236,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -265,7 +265,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -294,7 +294,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -323,7 +323,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -352,7 +352,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -381,7 +381,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -410,7 +410,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -439,7 +439,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -468,7 +468,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -497,7 +497,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -526,7 +526,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -555,7 +555,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -584,7 +584,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
@@ -613,7 +613,7 @@
       "PutRequest": {
         "Item": {
           "Id": {
-            "N": "0"
+            "S": "0"
           },
           "Question": {
             "S": "What is your favorite color?"
