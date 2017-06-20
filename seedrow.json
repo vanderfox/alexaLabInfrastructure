@@ -1,0 +1,640 @@
+{
+  "Dynamo01": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+    ],
+  "Dynamo02": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo03": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo04": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo05": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo05": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo06": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo07": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo08": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo09": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo10": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo11": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo12": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo12": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo13": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo14": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo15": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo16": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo17": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo18": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo19": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ],
+  "Dynamo20": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "0"
+          },
+          "Question": {
+            "S": "What is your favorite color?"
+          },
+          "option1": {
+            "S": "Blue"
+          },
+          "option2": {
+            "S": "Yellow"
+          },
+          "option3": {
+            "S": "Pink"
+          },
+          "option4": {
+            "S": "Black"
+          },
+          "answer": {
+            "N": "1"
+          }
+        }
+      }
+    }
+  ]
+}
