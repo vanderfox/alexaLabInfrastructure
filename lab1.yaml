@@ -265,6 +265,7 @@ Resources:
               - logs:describeLogGroups
               - logs:describeLogStreams
               - logs:getLogEvents
+              - dynamodb:*
             Resource: "*"
           -
             Effect: "Deny"
