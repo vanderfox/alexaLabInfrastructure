@@ -6,7 +6,7 @@ Resources:
       UserName:  Lambda11
       Path: "/"
       LoginProfile:
-        Password: gr8Conf!eu
+        Password: DrinkMoreBourbon1!
 
   Dynamo11:
     Type: "AWS::DynamoDB::Table"
@@ -30,7 +30,7 @@ Resources:
       UserName:  Lambda12
       Path: "/"
       LoginProfile:
-        Password: gr8Conf!eu
+        Password: DrinkMoreBourbon1!
 
   Dynamo12:
     Type: "AWS::DynamoDB::Table"
@@ -54,7 +54,7 @@ Resources:
       UserName:  Lambda13
       Path: "/"
       LoginProfile:
-        Password: gr8Conf!eu
+        Password: DrinkMoreBourbon1!
 
   Dynamo13:
     Type: "AWS::DynamoDB::Table"
@@ -78,7 +78,7 @@ Resources:
       UserName:  Lambda14
       Path: "/"
       LoginProfile:
-        Password: gr8Conf!eu
+        Password: DrinkMoreBourbon1!
 
   Dynamo14:
     Type: "AWS::DynamoDB::Table"
@@ -102,7 +102,7 @@ Resources:
       UserName:  Lambda15
       Path: "/"
       LoginProfile:
-        Password: gr8Conf!eu
+        Password: DrinkMoreBourbon1!
 
   Dynamo15:
     Type: "AWS::DynamoDB::Table"
@@ -126,7 +126,7 @@ Resources:
       UserName:  Lambda16
       Path: "/"
       LoginProfile:
-        Password: gr8Conf!eu
+        Password: DrinkMoreBourbon1!
 
   Dynamo16:
     Type: "AWS::DynamoDB::Table"
@@ -150,7 +150,7 @@ Resources:
       UserName:  Lambda17
       Path: "/"
       LoginProfile:
-        Password: gr8Conf!eu
+        Password: DrinkMoreBourbon1!
 
   Dynamo17:
     Type: "AWS::DynamoDB::Table"
@@ -174,7 +174,7 @@ Resources:
       UserName:  Lambda18
       Path: "/"
       LoginProfile:
-        Password: gr8Conf!eu
+        Password: DrinkMoreBourbon1!
 
   Dynamo18:
     Type: "AWS::DynamoDB::Table"
@@ -198,7 +198,7 @@ Resources:
       UserName:  Lambda19
       Path: "/"
       LoginProfile:
-        Password: gr8Conf!eu
+        Password: DrinkMoreBourbon1!
 
   Dynamo19:
     Type: "AWS::DynamoDB::Table"
@@ -222,7 +222,7 @@ Resources:
       UserName:  Lambda20
       Path: "/"
       LoginProfile:
-        Password: gr8Conf!eu
+        Password: DrinkMoreBourbon1!
 
   Dynamo20:
     Type: "AWS::DynamoDB::Table"
@@ -243,7 +243,7 @@ Resources:
   LambaLab2Policy:
     Type: "AWS::IAM::Policy"
     Properties:
-      PolicyName: "lab2Policy"
+      PolicyName: "lab1Policy"
       PolicyDocument:
         Version: "2012-10-17"
         Statement:
@@ -265,15 +265,7 @@ Resources:
               - logs:describeLogGroups
               - logs:describeLogStreams
               - logs:getLogEvents
-            Resource: "*"
-          -
-            Effect: "Deny"
-            Action:
-              - iam:*Role
-              - iam:*Group
-              - iam:AddUserToGroup
-              - iam:List*Policies
-              - iam:ChangePassword
+              - dynamodb:*
             Resource: "*"
           -
             Effect: "Deny"
