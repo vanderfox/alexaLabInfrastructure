@@ -1,0 +1,45 @@
+---
+- hosts: all
+  tasks:
+  - name:  stop tomcat
+    service: name=tomcat8 state=stopped
+    become:  yes
+
+  - name:  Copy ssh key
+    copy:  src=~/.ssh/alexa-lab.pem dest=~/.ssh/alexa-lab.pem owner=ubuntu group=ubuntu mode=0600
+
+  - name:  Copy password file
+    copy:  src=password.txt dest=~/password.txt owner=ubuntu group=ubuntu mode=0600
+
+  - name:  set hostfile
+    shell:  hostname {{ inventory_hostname }}
+    become: yes
+
+  - name:  create tomcat ssl directory
+    file: path=/etc/tomcat8/ssl state=directory mode=0755 group=tomcat8
+    become:  yes
+
+  - name:  generate keystore
+    shell:  keytool -genkey -alias {{ inventory_hostname }} -storepass changeit -keypass changeit -keyalg RSA -keysize 2048 -srcstorepass changeit -keystore /etc/tomcat8/ssl/vanderfox_com.jks -dname "CN={{ inventory_hostname }},OU=Technical, O=Vanderfox Enterprises, L=Austin, ST=TX, C=US" && keytool -certreq -alias {{ inventory_hostname }} -file vanderfox_com.csr -keystore /etc/tomcat8/ssl/vanderfox_com.jks < ./password.txt
+    become:  yes
+    ignore_errors:  yes
+
+  - name:  generate keystore X509 export file for users to paste into Amazon Portal
+    shell:  keytool -keystore /etc/tomcat8/ssl/vanderfox_com.jks -exportcert -alias {{ inventory_hostname }} < ./password.txt | openssl x509 -inform der -text >/home/ubuntu/sslkey.txt
+    become:  yes
+
+  - name:  change group
+    command:  chgrp tomcat8 /etc/tomcat8/ssl/vanderfox_com.jks
+    become:  yes
+
+  - name:  change perms of webapps for demo - DO NOT NOT DO THIS ON A REAL SITE!
+    file: path=/var/lib/tomcat8/ state=directory mode="0777" owner="tomcat8" group="tomcat8" recurse=yes
+    become:  yes
+
+  - name:  apply template
+    template: src=server.xml dest=/etc/tomcat8/server.xml group=tomcat8 mode=0644
+    become:  yes
+
+  - name:  start tomcat
+    service: name=tomcat8 state=started
+    become:  yes
